@@ -21,7 +21,7 @@
               </p>
               <div class="progress h-6">
                 <div
-                  class="progress-bar bg-primary w-100 "
+                  class="progress-bar bg-pink w-100 "
                   role="progressbar"
                 ></div>
               </div>
@@ -78,7 +78,7 @@
               </p>
               <div class="progress h-6">
                 <div
-                  class="progress-bar bg-pink w-100 "
+                  class="progress-bar bg-primary w-100 "
                   role="progressbar"
                 ></div>
               </div>

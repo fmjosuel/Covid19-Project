@@ -41,18 +41,19 @@
                   :key="`last-${i}`"
                   class="pl-4 pr-4 pt-3 pb-3 border-bottom"
                 >
-                  <i class="fa fa-bar-chart text-orange mr-2"></i> Day
-                  <b>{{ lastItem.Day }}</b>
-                  <div
-                    :class="[hasGrow(i) ? 'text-danger' : 'text-success']"
-                    class="pull-right"
-                  >
-                    <small>New cases</small>
-                    <b>{{ lastItem['Daily new cases'] }}</b>
-                    <i
-                      :class="[hasGrow(i) ? 'fa-level-up' : 'fa-level-down']"
-                      class="fa"
-                    ></i>
+                  <i class="fa fa-bar-chart text-orange mr-2"></i>
+                  <b>{{ lastItem.Date }}</b>
+                  <div class="pull-right">
+                    <span class="text-info">
+                      <small>New cases</small>
+                      <b>{{ lastItem['Daily new cases'] }}</b>
+                      <i class="fa fa-level-up"></i>
+                    </span>
+                    <span class="text-danger">
+                      <small>Deaths</small>
+                      <b>{{ lastItem['Daily new deaths'] }}</b>
+                      <i class="fa fa-level-down"></i>
+                    </span>
                   </div>
                 </li>
               </ul>
@@ -151,18 +152,26 @@ export default {
         growth: {
           name: 'Growth Factor',
           type: 'line',
+          smooth: true,
+          label: {
+            normal: {
+              show: true,
+              position: 'top'
+            }
+          },
           data: []
         }
       }
 
       this.chartData.map((e) => {
         days.push(e.Day)
+        const growth = Number.parseFloat(e['Growth Factor'])
         data.confirmed.data.push(e['Confirmed Cases'])
         data.active.data.push(e['Active cases'])
         data.deaths.data.push(e.Death)
         data.recovered.data.push(e.Recovery)
         data.days.data.push(e['Daily new cases'])
-        data.growth.data.push(e['Growth Factor'])
+        data.growth.data.push(growth.toFixed(2))
       })
       return {
         dates,
@@ -208,8 +217,11 @@ export default {
         const chart2 = document.getElementById('echart2')
         const barChart2 = echarts.init(chart2)
         const option2 = {
+          legend: {
+            show: true
+          },
           grid: {
-            top: '6',
+            top: '10%',
             right: '0',
             bottom: '40',
             left: '25'
@@ -228,11 +240,6 @@ export default {
           },
           xAxis: {
             data: vm.mainChart.dates,
-            // labels: {
-            //   show: true,
-            //   rotate: -45,
-            //   rotateAlways: true
-            // },
             axisLine: {
               lineStyle: {
                 color: 'rgba(161, 161, 161,0.3)'

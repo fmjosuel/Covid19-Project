@@ -7,7 +7,7 @@
             <li aria-haspopup="true">
               <nuxt-link exact to="/">DASHBOARD</nuxt-link>
             </li>
-            <li aria-haspopup="true">
+            <!-- <li aria-haspopup="true">
               <nuxt-link exact to="/news">NEWS FROM OMS</nuxt-link>
             </li>
             <li aria-haspopup="true">
@@ -18,7 +18,7 @@
             </li>
             <li aria-haspopup="true">
               <nuxt-link exact to="/team">TEAM</nuxt-link>
-            </li>
+            </li> -->
           </ul>
         </nav>
         <!--Nav end -->

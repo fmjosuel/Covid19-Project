@@ -5,12 +5,12 @@
       <div class="container">
         <a class="header-brand" href="">
           <img
-            src="/img/COVIDLOGO.png"
+            src="/img/logoCovidTeamfull2.png"
             class="header-brand-img main-logo"
             alt="Treal-Admin  logo"
           />
           <img
-            src="/img/COVIDLOGO.png"
+            src="/img/logoCovidTeamfull2.png"
             class="header-brand-img mobile-logo"
             alt="Treal-Admin  logo"
           />
@@ -26,7 +26,7 @@
               <h5>DRC STATISTICS</h5>
             </a>
           </li>
-          <li class="dropdown header-sidebar">
+          <!-- <li class="dropdown header-sidebar">
             <a
               href="#"
               class="nav-link nav-link-lg "
@@ -35,7 +35,7 @@
             >
               <i class="fe fe-align-right"></i>
             </a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </nav>
@@ -49,5 +49,8 @@
 }
 .nav-link.nav-link-lg.full-screen-link {
   margin-top: 0.4rem !important;
+}
+.navbar {
+  background: #022e57 !important;
 }
 </style>
