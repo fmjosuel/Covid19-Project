@@ -1,0 +1,534 @@
+
+a{
+	color:#867add;
+	font-weight: 400;
+}
+a:hover {
+	color:#867add;
+}
+
+.text-primary {
+	color:#867add!important;
+}
+.breadcrumb-item.active {
+	color:#867add;
+}
+.progress-bar {
+	color: #fff;
+	background-color:#867add;
+}
+/*---Colors---*/
+.bg-primary {
+	background-color:#867add!important;
+	color: #fff !important;
+}
+
+.bg-gradient {
+	background: linear-gradient(#3d4192,#867add) !important;
+}
+/*-- profile --*/
+.profile-head h6 {
+	color:#867add;
+}
+.proile-rating span {
+	color:#867add;
+}
+.profile-head .nav-tabs .nav-link.active {
+	border-bottom: 2px solid #867add;
+}
+.profile-work a:hover {
+	color:#867add;
+}
+.profile-tab p {
+	color:#867add;
+}
+/*
+ * Pagination
+ * ----------------------
+ */
+.page-item .page-link {
+	color:#867add;
+}
+.page-item.active .page-link {
+	background-color:#867add;
+	border-color:#867add;
+}
+
+/*
+ * Mail inbox
+ * ----------------------
+ */
+ 
+.mailsearch .btn {
+	background-color: #867add;
+	border: 1px solid #867add;
+	color: #fff;
+}
+/*
+ * Buttons
+ * ----------------------
+ */
+
+.btn-primary {
+	background-color:#867add;
+	border-color:#867add;
+}
+.btn-primary:focus, .btn-primary:focus:active, .btn-primary:active, .btn-primary:hover {
+	background-color:#867add  !important;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+	color: #fff;
+	background-color: #867add;
+	border-color: #867add;
+}
+.btn-outline-primary {
+	color:#867add;
+	border-color:#867add;
+	background-color: transparent;
+	background-image: none;
+}
+.btn-outline-primary:hover {
+	color: #fff;
+	border-color:#867add;
+	background-color:#867add;
+}
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+	box-shadow: 0 7px 14px rgba(50, 50, 93, .2), 0 3px 6px rgba(0, 0, 0, .08) !important;
+	border-color:#867add!important;
+}
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+	color:#867add;
+	background-color: transparent;
+}
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show>.btn-outline-primary.dropdown-toggle {
+	color: #fff;
+	border-color:#867add;
+	background-color:#867add;
+}
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show>.btn-outline-primary.dropdown-toggle:focus {
+	box-shadow: 0 0 0 0 rgba(94, 114, 228, .5);
+	border-color:#867add!important;
+}
+
+/*-- end btn  --*/
+
+/*
+ * Nav Bar
+ * ----------------------
+ */
+
+.navbar {
+	background:#867add ;
+	box-shadow:0 2px 17px 2px #c2bad2;
+}
+.navbar.active {
+	background-color:#867add;
+}
+.navbar .form-inline .btn {
+	border: 2px solid #867add;
+	box-shadow:none;
+}
+.nav-tabs .nav-item .nav-link {
+	color:#867add;
+}
+
+/*- end navbar --*/
+
+/*
+ * Form Control
+ * ----------------------
+ */
+
+.form-control:focus {
+	border-color:#867add;
+}
+
+/*-- end form control --*/
+
+/*
+ * Alert
+ * ----------------------
+ */
+.alert.alert-primary {
+	background-color:#867add;
+}
+/*-- end alert --*/
+
+/*
+ * Cards Design
+ * ----------------------
+ */
+.card.card-primary {
+	border-top: 2px solid #867add;
+}
+.card .card-header .card-subtitle{
+	color:#8c8796;
+}
+/*.card .card-header:after{
+	display: block;
+    content: '';
+    width: 50px;
+    height: 3px;
+    background:#867add;
+    top: 0;
+    left: 10px;
+    position: absolute;
+}*/
+.card .box h2 span {
+	background:#867add;
+}
+.card .box ul li:hover a {
+	color:#867add;
+}
+/*-- end card --*/
+/*
+ * FullCalendar
+ * ----------------------
+ */
+.fc button.fc-state-active {
+	background-color:#867add;
+}
+/*-- min Calendar ---*/
+
+#calendar_weekdays div {
+	color:#867add!important;
+}
+#calendar_content div.today {
+	background:#867add!important;
+}
+/*-- end fullcalendar --*/
+
+.jqvmap-circle {
+	background-color:#867add;
+}
+.weather ul li {
+	border: 2px solid #867add;
+	color:#867add;
+}
+
+/*
+ * User Profile
+ * ----------------------
+ */
+
+.tags li a:hover {
+	background:#867add;
+	border-color:#867add;
+}
+
+/*
+ *  Chat
+ * ----------------------
+ */
+.card-chat .chat-content .chat-item.chat-right .chat-details .chat-text {
+	background-color:#867add;
+}
+
+/*-- listgroup --*/
+.list-group-item.active {
+	color: #fff;
+	background-color:#867add;
+	border-color:#867add;
+}
+
+/*-- Badge --*/
+.badge-primary {
+	color: #fff;
+	background-color:#867add;
+}
+
+/*
+ * Media
+ * ----------------------
+ */
+
+.media .media-right {
+	color:#867add;
+}
+
+/*
+ * Accordion
+ * ----------------------
+ */
+.accordion .accordion-header[aria-expanded="true"] {
+	background-color:#867add;
+}
+/* style-1--*/
+
+.acc-1 .accordion-header:hover {
+	background:#867add;
+}
+.acc-1 .accordion__item  .accordion-header[aria-expanded="true"]{
+	background:#867add;
+}
+.acc-1 .accordion__item.active .accordion-header{
+	background:#867add;
+}
+
+/*
+ * Form Elements
+ * ----------------------
+ */
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color:#867add;
+    border-color:#867add;
+}
+
+/*---Shop----*/
+
+.prod-cat li ul li a:hover,.prod-cat li ul li a:focus, .prod-cat li ul li.active a , .prod-cat li a:hover,.prod-cat li a:focus, .prod-cat li a.active{
+   color:#867add;
+}
+.adtocart {
+    background:#867add;   
+}
+
+/*------Switch---*/
+.custom-switch-input:checked~.custom-switch-indicator {
+	background:#867add;
+}
+.custom-file-input:focus~.custom-file-label {
+	border-color:#867add;
+}
+.custom-file-input:focus~.custom-file-label::after {
+	border-color:#867add;
+}
+.custom-file-label::after {
+	background-color:#867add;
+    border-left: 1px solid #867add;
+}
+/*
+ * Loaders
+ * ----------------------
+ */
+/*--circleloader--*/
+.lds-circle > div {
+  background:#867add;
+}
+/*---ring loaders --*/
+.lds-dual-ring:after {
+  border: 5px solid #867add;
+  border-color:#867add transparent #867add transparent;
+}
+/*-- lines loader --*/
+.lds-facebook div {
+  background:#867add;
+}
+/*--heart loader --*/
+.lds-heart div {
+  background:#867add;
+}
+.lds-heart div:after,
+.lds-heart div:before {
+  background:#867add;
+}
+/*--Ringloader-2 --*/
+.lds-ring div {
+  border: 6px solid #867add;
+  border-color:#867add transparent transparent transparent;
+}
+/**-Ringdots-**/
+.lds-roller div:after {
+  background:#867add;
+}
+/*--hourglass loader--*/
+.lds-hourglass:after {
+  border: 26px solid #867add;
+  border-color:#867add transparent #867addtransparent;
+}
+/**-ripple --*/
+.lds-ripple div {
+  border: 4px solid #867add;
+}
+/*-- Spinner loader --*/
+.lds-spinner div:after {
+  background:#867add;
+}
+
+
+/*
+ * Select styles
+ * ----------------------
+ */
+.selectgroup-input:checked+.selectgroup-button {
+	border-color:#867add;
+	color:#867add;
+	background: #f1f6f7;
+}
+.selectgroup-input:focus+.selectgroup-button {
+	border-color:#867add;
+	color:#867add;
+}
+.showmore-button-inner {
+	color:#867add;
+}
+
+/*
+ * Chat
+ * ----------------------
+ */
+
+.message-feed:not(.right) .mf-content {
+    background:#867add;
+}
+.msb-reply button {
+	background:#867add;
+}
+.msb-reply button:hover {
+    background:#867add;
+}
+
+/*
+ * Panel
+ * ----------------------
+ */
+.panel-primary{
+	border-color:#867add;
+}
+.panel-primary >.panel-heading{
+    color: #fff;
+    background-color:#867add;
+    border-color:#867add;
+}
+
+/*
+ * Counters
+ * ----------------------
+ */
+.count-timer {
+	color:#867add;
+}
+
+/** -- popup-chat -- **/
+
+.popup-box .popup-head {
+    background-color:#867add;
+}
+.bg_none i {
+    border: 1px solid #867add;
+    color:#867add;
+}
+
+/*
+ * Tags
+ * ----------------------
+ */
+.tag-primary {
+    background-color:#867add;
+}
+/*
+ * labels
+ * ----------------------
+ */
+.label-primary{
+	background-color:#867add;
+}
+
+/*
+ * Switches
+ * ----------------------
+ */
+.custom-switch-input:checked~.custom-switch-indicator {
+	background:#867add;
+}
+
+/*
+ * Landing page
+ * ----------------------
+ */
+ .wave {
+	background:#867add;
+}
+
+/*-----Back to Top-----*/
+
+#back-to-top:hover {
+	color:#867add;
+	border: 2px solid #867add;
+}
+.header{
+	background:#867add;
+}
+
+/*--bg-transparents--*/
+.bg-primary-transparent {
+    background-color: rgb(126, 110, 230,0.1) ;
+}
+#back-to-top {
+    background: #867add;
+}
+#count-down .clock-presenter{
+	background: #867add;
+}
+.slide-menu a.active{
+	color: #867add !important;
+    background: #fff;
+}
+.slide-item.active, .slide-item:hover, .slide-item:focus {
+	text-decoration: none;
+	color: #867add;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #867add;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+   border-color: #867add;
+}
+.onoffswitch2-checkbox:checked + .onoffswitch2-label {
+    background-color:#867add;
+}
+.onoffswitch2-checkbox:checked + .onoffswitch-label2, .onoffswitch2-checkbox:checked + .onoffswitch2-label:before {
+   border-color:#867add;
+}
+.horizontalMenu>.horizontalMenu-list>li>a:hover {
+    background: #867add;
+}
+.horizontalMenu>.horizontalMenu-list>li>a:hover {
+   background: #f3f3f9;
+    color: #191919;
+}
+.horizontalMenu>.horizontalMenu-list>li>ul.sub-menu>li>a:hover{
+	color:#867add;
+}
+.horizontalMenu>.horizontalMenu-list>li>ul.sub-menu>li>ul.sub-menu>li>a:hover{
+	color:#867add !important;
+}
+.horizontalMenu>.horizontalMenu-list>li>.horizontal-megamenu .link-list li a:hover{
+	color:#867add !important;
+}
+.side-menu__item.active .side-menu__icon, .side-menu__item:hover .side-menu__icon, .side-menu__item:focus .side-menu__icon{
+	color:#867add !important;
+}
+.slide.submenu .side-menu__label:hover{
+	color:#867add !important;
+}
+.side-menu .slide-menu.submenu-list a:hover{
+	color:#867add !important;
+}
+.dark-mode .resp-vtabs li.resp-tab-active, .dark-mode .resp-vtabs li:hover{
+	color:#867add !important;
+}
+.dark-mode .slide-item.active, .dark-mode .slide-item:hover, .dark-mode .slide-item:focus{
+	color:#867add !important;
+}
+.side-menu__item.active, .side-menu__item:hover, .side-menu__item:focus, .dark-mode .slide-menu a.active{
+	color:#867add !important;
+}
+.dark-mode .side-menu__item.active, .dark-mode .side-menu__item:hover, .dark-mode .side-menu__item:focus{
+	color:#fff !important;
+	background:#867add !important;
+}
+.dark-mode .side-menu__item.active .side-menu__icon, .dark-mode .side-menu__item:hover .side-menu__icon, .dark-mode .side-menu__item:focus .side-menu__icon{
+	color:#fff !important;
+}
+
+
+@media only screen and (max-width: 991px){
+.horizontalMenu>.horizontalMenu-list>li:hover>a {
+    background: #867add !important;
+    color: #fff !important;
+}
+.horizontalMenu>.horizontalMenu-list>li>ul.sub-menu li:hover>a{
+	color:#867add !important;
+}
+}

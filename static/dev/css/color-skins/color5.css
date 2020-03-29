@@ -1,0 +1,534 @@
+
+a{
+	color:#0085ca;
+	font-weight: 400;
+}
+a:hover {
+	color:#0085ca;
+}
+
+.text-primary {
+	color:#0085ca!important;
+}
+.breadcrumb-item.active {
+	color:#0085ca;
+}
+.progress-bar {
+	color: #fff;
+	background-color:#0085ca;
+}
+/*---Colors---*/
+.bg-primary {
+	background-color:#0085ca!important;
+	color: #fff !important;
+}
+
+.bg-gradient {
+	background: linear-gradient(#3d4192,#0085ca) !important;
+}
+/*-- profile --*/
+.profile-head h6 {
+	color:#0085ca;
+}
+.proile-rating span {
+	color:#0085ca;
+}
+.profile-head .nav-tabs .nav-link.active {
+	border-bottom: 2px solid #0085ca;
+}
+.profile-work a:hover {
+	color:#0085ca;
+}
+.profile-tab p {
+	color:#0085ca;
+}
+/*
+ * Pagination
+ * ----------------------
+ */
+.page-item .page-link {
+	color:#0085ca;
+}
+.page-item.active .page-link {
+	background-color:#0085ca;
+	border-color:#0085ca;
+}
+
+/*
+ * Mail inbox
+ * ----------------------
+ */
+ 
+.mailsearch .btn {
+	background-color: #0085ca;
+	border: 1px solid #0085ca;
+	color: #fff;
+}
+/*
+ * Buttons
+ * ----------------------
+ */
+
+.btn-primary {
+	background-color:#0085ca;
+	border-color:#0085ca;
+}
+.btn-primary:focus, .btn-primary:focus:active, .btn-primary:active, .btn-primary:hover {
+	background-color:#0085ca !important;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+	color: #fff;
+	background-color: #0085ca;
+	border-color: #0085ca;
+}
+.btn-outline-primary {
+	color:#0085ca;
+	border-color:#0085ca;
+	background-color: transparent;
+	background-image: none;
+}
+.btn-outline-primary:hover {
+	color: #fff;
+	border-color:#0085ca;
+	background-color:#0085ca;
+}
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+	box-shadow: 0 7px 14px rgba(50, 50, 93, .2), 0 3px 6px rgba(0, 0, 0, .08) !important;
+	border-color:#0085ca!important;
+}
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+	color:#0085ca;
+	background-color: transparent;
+}
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show>.btn-outline-primary.dropdown-toggle {
+	color: #fff;
+	border-color:#0085ca;
+	background-color:#0085ca;
+}
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show>.btn-outline-primary.dropdown-toggle:focus {
+	box-shadow: 0 0 0 0 rgba(94, 114, 228, .5);
+	border-color:#0085ca!important;
+}
+
+/*-- end btn  --*/
+
+/*
+ * Nav Bar
+ * ----------------------
+ */
+
+.navbar {
+	background:#0085ca ;
+	box-shadow:0 2px 17px 2px #c2bad2;
+}
+.navbar.active {
+	background-color:#0085ca;
+}
+.navbar .form-inline .btn {
+	border: 2px solid #0085ca;
+	box-shadow:none;
+}
+.nav-tabs .nav-item .nav-link {
+	color:#0085ca;
+}
+
+/*- end navbar --*/
+
+/*
+ * Form Control
+ * ----------------------
+ */
+
+.form-control:focus {
+	border-color:#0085ca;
+}
+
+/*-- end form control --*/
+
+/*
+ * Alert
+ * ----------------------
+ */
+.alert.alert-primary {
+	background-color:#0085ca;
+}
+/*-- end alert --*/
+
+/*
+ * Cards Design
+ * ----------------------
+ */
+.card.card-primary {
+	border-top: 2px solid #0085ca;
+}
+.card .card-header .card-subtitle{
+	color:#8c8796;
+}
+/*.card .card-header:after{
+	display: block;
+    content: '';
+    width: 50px;
+    height: 3px;
+    background:#0085ca;
+    top: 0;
+    left: 10px;
+    position: absolute;
+}*/
+.card .box h2 span {
+	background:#0085ca;
+}
+.card .box ul li:hover a {
+	color:#0085ca;
+}
+/*-- end card --*/
+/*
+ * FullCalendar
+ * ----------------------
+ */
+.fc button.fc-state-active {
+	background-color:#0085ca;
+}
+/*-- min Calendar ---*/
+
+#calendar_weekdays div {
+	color:#0085ca!important;
+}
+#calendar_content div.today {
+	background:#0085ca!important;
+}
+/*-- end fullcalendar --*/
+
+.jqvmap-circle {
+	background-color:#0085ca;
+}
+.weather ul li {
+	border: 2px solid #0085ca;
+	color:#0085ca;
+}
+
+/*
+ * User Profile
+ * ----------------------
+ */
+
+.tags li a:hover {
+	background:#0085ca;
+	border-color:#0085ca;
+}
+
+/*
+ *  Chat
+ * ----------------------
+ */
+.card-chat .chat-content .chat-item.chat-right .chat-details .chat-text {
+	background-color:#0085ca;
+}
+
+/*-- listgroup --*/
+.list-group-item.active {
+	color: #fff;
+	background-color:#0085ca;
+	border-color:#0085ca;
+}
+
+/*-- Badge --*/
+.badge-primary {
+	color: #fff;
+	background-color:#0085ca;
+}
+
+/*
+ * Media
+ * ----------------------
+ */
+
+.media .media-right {
+	color:#0085ca;
+}
+
+/*
+ * Accordion
+ * ----------------------
+ */
+.accordion .accordion-header[aria-expanded="true"] {
+	background-color:#0085ca;
+}
+/* style-1--*/
+
+.acc-1 .accordion-header:hover {
+	background:#0085ca;
+}
+.acc-1 .accordion__item  .accordion-header[aria-expanded="true"]{
+	background:#0085ca;
+}
+.acc-1 .accordion__item.active .accordion-header{
+	background:#0085ca;
+}
+
+/*
+ * Form Elements
+ * ----------------------
+ */
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color:#0085ca;
+    border-color:#0085ca;
+}
+
+/*---Shop----*/
+
+.prod-cat li ul li a:hover,.prod-cat li ul li a:focus, .prod-cat li ul li.active a , .prod-cat li a:hover,.prod-cat li a:focus, .prod-cat li a.active{
+   color:#0085ca;
+}
+.adtocart {
+    background:#0085ca;   
+}
+
+/*------Switch---*/
+.custom-switch-input:checked~.custom-switch-indicator {
+	background:#0085ca;
+}
+.custom-file-input:focus~.custom-file-label {
+	border-color:#0085ca;
+}
+.custom-file-input:focus~.custom-file-label::after {
+	border-color:#0085ca;
+}
+.custom-file-label::after {
+	background-color:#0085ca;
+    border-left: 1px solid #0085ca;
+}
+/*
+ * Loaders
+ * ----------------------
+ */
+/*--circleloader--*/
+.lds-circle > div {
+  background:#0085ca;
+}
+/*---ring loaders --*/
+.lds-dual-ring:after {
+  border: 5px solid #0085ca;
+  border-color:#0085ca transparent #0085ca transparent;
+}
+/*-- lines loader --*/
+.lds-facebook div {
+  background:#0085ca;
+}
+/*--heart loader --*/
+.lds-heart div {
+  background:#0085ca;
+}
+.lds-heart div:after,
+.lds-heart div:before {
+  background:#0085ca;
+}
+/*--Ringloader-2 --*/
+.lds-ring div {
+  border: 6px solid #0085ca;
+  border-color:#0085ca transparent transparent transparent;
+}
+/**-Ringdots-**/
+.lds-roller div:after {
+  background:#0085ca;
+}
+/*--hourglass loader--*/
+.lds-hourglass:after {
+  border: 26px solid #0085ca;
+  border-color:#0085ca transparent #0085catransparent;
+}
+/**-ripple --*/
+.lds-ripple div {
+  border: 4px solid #0085ca;
+}
+/*-- Spinner loader --*/
+.lds-spinner div:after {
+  background:#0085ca;
+}
+
+
+/*
+ * Select styles
+ * ----------------------
+ */
+.selectgroup-input:checked+.selectgroup-button {
+	border-color:#0085ca;
+	color:#0085ca;
+	background: #f1f6f7;
+}
+.selectgroup-input:focus+.selectgroup-button {
+	border-color:#0085ca;
+	color:#0085ca;
+}
+.showmore-button-inner {
+	color:#0085ca;
+}
+
+/*
+ * Chat
+ * ----------------------
+ */
+
+.message-feed:not(.right) .mf-content {
+    background:#0085ca;
+}
+.msb-reply button {
+	background:#0085ca;
+}
+.msb-reply button:hover {
+    background:#0085ca;
+}
+
+/*
+ * Panel
+ * ----------------------
+ */
+.panel-primary{
+	border-color:#0085ca;
+}
+.panel-primary >.panel-heading{
+    color: #fff;
+    background-color:#0085ca;
+    border-color:#0085ca;
+}
+
+/*
+ * Counters
+ * ----------------------
+ */
+.count-timer {
+	color:#0085ca;
+}
+
+/** -- popup-chat -- **/
+
+.popup-box .popup-head {
+    background-color:#0085ca;
+}
+.bg_none i {
+    border: 1px solid #0085ca;
+    color:#0085ca;
+}
+
+/*
+ * Tags
+ * ----------------------
+ */
+.tag-primary {
+    background-color:#0085ca;
+}
+/*
+ * labels
+ * ----------------------
+ */
+.label-primary{
+	background-color:#0085ca;
+}
+
+/*
+ * Switches
+ * ----------------------
+ */
+.custom-switch-input:checked~.custom-switch-indicator {
+	background:#0085ca;
+}
+
+/*
+ * Landing page
+ * ----------------------
+ */
+ .wave {
+	background:#0085ca;
+}
+
+/*-----Back to Top-----*/
+
+#back-to-top:hover {
+	color:#0085ca;
+	border: 2px solid #0085ca;
+}
+.header{
+	background:#0085ca;
+}
+
+/*--bg-transparents--*/
+.bg-primary-transparent {
+    background-color: rgb(126, 110, 230,0.1) ;
+}
+#back-to-top {
+    background: #0085ca;
+}
+#count-down .clock-presenter{
+	background: #0085ca;
+}
+.slide-menu a.active{
+	color: #0085ca !important;
+    background: #fff;
+}
+.slide-item.active, .slide-item:hover, .slide-item:focus {
+	text-decoration: none;
+	color: #0085ca;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #0085ca;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+   border-color: #0085ca;
+}
+.onoffswitch2-checkbox:checked + .onoffswitch2-label {
+    background-color:#0085ca;
+}
+.onoffswitch2-checkbox:checked + .onoffswitch-label2, .onoffswitch2-checkbox:checked + .onoffswitch2-label:before {
+   border-color:#0085ca;
+}
+.horizontalMenu>.horizontalMenu-list>li>a:hover {
+    background: #0085ca;
+}
+.horizontalMenu>.horizontalMenu-list>li>a:hover {
+   background: #f3f3f9;
+    color: #191919;
+}
+.horizontalMenu>.horizontalMenu-list>li>ul.sub-menu>li>a:hover {
+	color:#0085ca !important;
+}
+.horizontalMenu>.horizontalMenu-list>li>ul.sub-menu>li>ul.sub-menu>li>a:hover{
+	color:#0085ca !important;
+}
+.horizontalMenu>.horizontalMenu-list>li>.horizontal-megamenu .link-list li a:hover{
+	color:#0085ca !important;
+}
+.side-menu__item.active .side-menu__icon, .side-menu__item:hover .side-menu__icon, .side-menu__item:focus .side-menu__icon{
+	color:#0085ca !important;
+}
+.slide.submenu .side-menu__label:hover{
+	color:#0085ca !important;
+}
+.side-menu .slide-menu.submenu-list a:hover{
+	color:#0085ca !important;
+}
+.dark-mode .resp-vtabs li.resp-tab-active, .dark-mode .resp-vtabs li:hover{
+	color:#0085ca !important;
+}
+.dark-mode .slide-item.active, .dark-mode .slide-item:hover, .dark-mode .slide-item:focus{
+	color:#0085ca !important;
+}
+.side-menu__item.active, .side-menu__item:hover, .side-menu__item:focus, .dark-mode .slide-menu a.active{
+	color:#0085ca !important;
+}
+.dark-mode .side-menu__item.active, .dark-mode .side-menu__item:hover, .dark-mode .side-menu__item:focus{
+	color:#fff !important;
+	background:#0085ca !important;
+}
+.dark-mode .side-menu__item.active .side-menu__icon, .dark-mode .side-menu__item:hover .side-menu__icon, .dark-mode .side-menu__item:focus .side-menu__icon{
+	color:#fff !important;
+}
+
+@media only screen and (max-width: 991px){
+.horizontalMenu>.horizontalMenu-list>li:hover>a {
+    background: #0085ca !important;
+    color: #fff !important;
+}
+.horizontalMenu>.horizontalMenu-list>li>ul.sub-menu li:hover>a{
+	color:#0085ca !important;
+}
+}

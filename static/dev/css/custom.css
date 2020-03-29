@@ -1,0 +1,11 @@
+.horizontalMenu {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif !important;
+}
+.horizontalMenu > .horizontalMenu-list > li {
+  font-size: 14px !important;
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .horizontalMenu > .horizontalMenu-list > li {
+    font-size: 14px !important;
+  }
+}

@@ -1,0 +1,534 @@
+
+a{
+	color:#0E5CAD;
+	font-weight: 400;
+}
+a:hover {
+	color:#0E5CAD;
+}
+
+.text-primary {
+	color:#0E5CAD!important;
+}
+.breadcrumb-item.active {
+	color:#0E5CAD;
+}
+.progress-bar {
+	color: #fff;
+	background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+}
+/*---Colors---*/
+.bg-primary {
+	background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%) !important;
+	color: #fff !important;
+}
+
+.bg-gradient {
+	background: linear-gradient(#3d4192,#0E5CAD) !important;
+}
+/*-- profile --*/
+.profile-head h6 {
+	color:#0E5CAD;
+}
+.proile-rating span {
+	color:#0E5CAD;
+}
+.profile-head .nav-tabs .nav-link.active {
+	border-bottom: 2px solid #0E5CAD;
+}
+.profile-work a:hover {
+	color:#0E5CAD;
+}
+.profile-tab p {
+	color:#0E5CAD;
+}
+/*
+ * Pagination
+ * ----------------------
+ */
+.page-item .page-link {
+	color:#0E5CAD;
+}
+.page-item.active .page-link {
+	background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+	border-color:#0E5CAD;
+}
+
+/*
+ * Mail inbox
+ * ----------------------
+ */
+ 
+.mailsearch .btn {
+	background-color: #0E5CAD;
+	border: 1px solid #0E5CAD;
+	color: #fff;
+}
+/*
+ * Buttons
+ * ----------------------
+ */
+
+.btn-primary {
+	background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+	border-color:#0E5CAD;
+}
+.btn-primary:focus, .btn-primary:focus:active, .btn-primary:active, .btn-primary:hover {
+	background-color:#7f3db1 !important;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+	color: #fff;
+	background-color: #7f3db1;
+	border-color: #7f3db1;
+}
+.btn-outline-primary {
+	color:#0E5CAD;
+	border-color:#0E5CAD;
+	background-color: transparent;
+	background-image: none;
+}
+.btn-outline-primary:hover {
+	color: #fff;
+	border-color:#0E5CAD;
+	background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+}
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+	box-shadow: 0 7px 14px rgba(50, 50, 93, .2), 0 3px 6px rgba(0, 0, 0, .08) !important;
+	border-color:#0E5CAD!important;
+}
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+	color:#0E5CAD;
+	background-color: transparent;
+}
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show>.btn-outline-primary.dropdown-toggle {
+	color: #fff;
+	border-color:#0E5CAD;
+	background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+}
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show>.btn-outline-primary.dropdown-toggle:focus {
+	box-shadow: 0 0 0 0 rgba(94, 114, 228, .5);
+	border-color:#0E5CAD!important;
+}
+
+/*-- end btn  --*/
+
+/*
+ * Nav Bar
+ * ----------------------
+ */
+
+.navbar {
+	background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%)  ;
+	box-shadow:0 2px 17px 2px #c2bad2;
+}
+.navbar.active {
+	background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+}
+.navbar .form-inline .btn {
+	border: 2px solid #0E5CAD;
+	box-shadow:none;
+}
+.nav-tabs .nav-item .nav-link {
+	color:#0E5CAD;
+}
+
+/*- end navbar --*/
+
+/*
+ * Form Control
+ * ----------------------
+ */
+
+.form-control:focus {
+	border-color:#0E5CAD;
+}
+
+/*-- end form control --*/
+
+/*
+ * Alert
+ * ----------------------
+ */
+.alert.alert-primary {
+	background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+}
+/*-- end alert --*/
+
+/*
+ * Cards Design
+ * ----------------------
+ */
+.card.card-primary {
+	border-top: 2px solid #0E5CAD;
+}
+.card .card-header .card-subtitle{
+	color:#8c8796;
+}
+/*.card .card-header:after{
+	display: block;
+    content: '';
+    width: 50px;
+    height: 3px;
+    background:#0E5CAD;
+    top: 0;
+    left: 10px;
+    position: absolute;
+}*/
+.card .box h2 span {
+	background:#0E5CAD;
+}
+.card .box ul li:hover a {
+	color:#0E5CAD;
+}
+/*-- end card --*/
+/*
+ * FullCalendar
+ * ----------------------
+ */
+.fc button.fc-state-active {
+	background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+}
+/*-- min Calendar ---*/
+
+#calendar_weekdays div {
+	color:#0E5CAD!important;
+}
+#calendar_content div.today {
+	background:#0E5CAD!important;
+}
+/*-- end fullcalendar --*/
+
+.jqvmap-circle {
+	background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+}
+.weather ul li {
+	border: 2px solid #0E5CAD;
+	color:#0E5CAD;
+}
+
+/*
+ * User Profile
+ * ----------------------
+ */
+
+.tags li a:hover {
+	background:#0E5CAD;
+	border-color:#0E5CAD;
+}
+
+/*
+ *  Chat
+ * ----------------------
+ */
+.card-chat .chat-content .chat-item.chat-right .chat-details .chat-text {
+	background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+}
+
+/*-- listgroup --*/
+.list-group-item.active {
+	color: #fff;
+	background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+	border-color:#0E5CAD;
+}
+
+/*-- Badge --*/
+.badge-primary {
+	color: #fff;
+	background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+}
+
+/*
+ * Media
+ * ----------------------
+ */
+
+.media .media-right {
+	color:#0E5CAD;
+}
+
+/*
+ * Accordion
+ * ----------------------
+ */
+.accordion .accordion-header[aria-expanded="true"] {
+	background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+}
+/* style-1--*/
+
+.acc-1 .accordion-header:hover {
+	background:#0E5CAD;
+}
+.acc-1 .accordion__item  .accordion-header[aria-expanded="true"]{
+	background:#0E5CAD;
+}
+.acc-1 .accordion__item.active .accordion-header{
+	background:#0E5CAD;
+}
+
+/*
+ * Form Elements
+ * ----------------------
+ */
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+    border-color:#0E5CAD;
+}
+
+/*---Shop----*/
+
+.prod-cat li ul li a:hover,.prod-cat li ul li a:focus, .prod-cat li ul li.active a , .prod-cat li a:hover,.prod-cat li a:focus, .prod-cat li a.active{
+   color:#0E5CAD;
+}
+.adtocart {
+    background:#0E5CAD;   
+}
+
+/*------Switch---*/
+.custom-switch-input:checked~.custom-switch-indicator {
+	background:#0E5CAD;
+}
+.custom-file-input:focus~.custom-file-label {
+	border-color:#0E5CAD;
+}
+.custom-file-input:focus~.custom-file-label::after {
+	border-color:#0E5CAD;
+}
+.custom-file-label::after {
+	background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+    border-left: 1px solid #0E5CAD;
+}
+/*
+ * Loaders
+ * ----------------------
+ */
+/*--circleloader--*/
+.lds-circle > div {
+  background:#0E5CAD;
+}
+/*---ring loaders --*/
+.lds-dual-ring:after {
+  border: 5px solid #0E5CAD;
+  border-color:#0E5CAD transparent #0E5CAD transparent;
+}
+/*-- lines loader --*/
+.lds-facebook div {
+  background:#0E5CAD;
+}
+/*--heart loader --*/
+.lds-heart div {
+  background:#0E5CAD;
+}
+.lds-heart div:after,
+.lds-heart div:before {
+  background:#0E5CAD;
+}
+/*--Ringloader-2 --*/
+.lds-ring div {
+  border: 6px solid #0E5CAD;
+  border-color:#0E5CAD transparent transparent transparent;
+}
+/**-Ringdots-**/
+.lds-roller div:after {
+  background:#0E5CAD;
+}
+/*--hourglass loader--*/
+.lds-hourglass:after {
+  border: 26px solid #0E5CAD;
+  border-color:#0E5CAD transparent #0E5CADtransparent;
+}
+/**-ripple --*/
+.lds-ripple div {
+  border: 4px solid #0E5CAD;
+}
+/*-- Spinner loader --*/
+.lds-spinner div:after {
+  background:#0E5CAD;
+}
+
+
+/*
+ * Select styles
+ * ----------------------
+ */
+.selectgroup-input:checked+.selectgroup-button {
+	border-color:#0E5CAD;
+	color:#0E5CAD;
+	background: #f1f6f7;
+}
+.selectgroup-input:focus+.selectgroup-button {
+	border-color:#0E5CAD;
+	color:#0E5CAD;
+}
+.showmore-button-inner {
+	color:#0E5CAD;
+}
+
+/*
+ * Chat
+ * ----------------------
+ */
+
+.message-feed:not(.right) .mf-content {
+    background:#0E5CAD;
+}
+.msb-reply button {
+	background:#0E5CAD;
+}
+.msb-reply button:hover {
+    background:#0E5CAD;
+}
+
+/*
+ * Panel
+ * ----------------------
+ */
+.panel-primary{
+	border-color:#0E5CAD;
+}
+.panel-primary >.panel-heading{
+    color: #fff;
+    background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+    border-color:#0E5CAD;
+}
+
+/*
+ * Counters
+ * ----------------------
+ */
+.count-timer {
+	color:#0E5CAD;
+}
+
+/** -- popup-chat -- **/
+
+.popup-box .popup-head {
+    background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+}
+.bg_none i {
+    border: 1px solid #0E5CAD;
+    color:#0E5CAD;
+}
+
+/*
+ * Tags
+ * ----------------------
+ */
+.tag-primary {
+    background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+}
+/*
+ * labels
+ * ----------------------
+ */
+.label-primary{
+	background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+}
+
+/*
+ * Switches
+ * ----------------------
+ */
+.custom-switch-input:checked~.custom-switch-indicator {
+	background:#0E5CAD;
+}
+
+/*
+ * Landing page
+ * ----------------------
+ */
+ .wave {
+	background:#0E5CAD;
+}
+
+/*-----Back to Top-----*/
+
+#back-to-top:hover {
+	color:#0E5CAD;
+	border: 2px solid #0E5CAD;
+}
+.header{
+	background:#0E5CAD;
+}
+
+/*--bg-transparents--*/
+.bg-primary-transparent {
+    background-color: rgb(126, 110, 230,0.1) ;
+}
+#back-to-top {
+    background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+}
+#count-down .clock-presenter{
+	background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+}
+.slide-menu a.active{
+	color: #0E5CAD !important;
+    background: #fff;
+}
+.slide-item.active, .slide-item:hover, .slide-item:focus {
+	text-decoration: none;
+	color: #0E5CAD;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #0E5CAD;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+   border-color: #0E5CAD;
+}
+.onoffswitch2-checkbox:checked + .onoffswitch2-label {
+    background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+}
+.onoffswitch2-checkbox:checked + .onoffswitch-label2, .onoffswitch2-checkbox:checked + .onoffswitch2-label:before {
+   border-color:#0E5CAD;
+}
+.horizontalMenu>.horizontalMenu-list>li>a:hover {
+    color: #fff;
+    background:linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%);
+}
+.horizontalMenu>.horizontalMenu-list>li>a:hover {
+   background: #f3f3f9;
+    color: #191919;
+}
+.horizontalMenu>.horizontalMenu-list>li>ul.sub-menu>li>a:hover {
+	color:#0E5CAD !important;
+}
+.horizontalMenu>.horizontalMenu-list>li>ul.sub-menu>li>ul.sub-menu>li>a:hover{
+	color:#0E5CAD !important;
+}
+.horizontalMenu>.horizontalMenu-list>li>.horizontal-megamenu .link-list li a:hover{
+	color:#0E5CAD !important;
+}
+.side-menu__item.active .side-menu__icon, .side-menu__item:hover .side-menu__icon, .side-menu__item:focus .side-menu__icon{
+	color:#0E5CAD !important;
+}
+.slide.submenu .side-menu__label:hover{
+	color:#0E5CAD !important;
+}
+.side-menu .slide-menu.submenu-list a:hover{
+	color:#0E5CAD !important;
+}
+.dark-mode .resp-vtabs li.resp-tab-active, .dark-mode .resp-vtabs li:hover{
+	color:#0E5CAD !important;
+}
+.dark-mode .slide-item.active, .dark-mode .slide-item:hover, .dark-mode .slide-item:focus{
+	color:#0E5CAD !important;
+}
+.side-menu__item.active, .side-menu__item:hover, .side-menu__item:focus, .dark-mode .slide-menu a.active{
+	color:#0E5CAD !important;
+}
+.dark-mode .side-menu__item.active, .dark-mode .side-menu__item:hover, .dark-mode .side-menu__item:focus{
+	color:#fff !important;
+	background:#0E5CAD !important;
+}
+.dark-mode .side-menu__item.active .side-menu__icon, .dark-mode .side-menu__item:hover .side-menu__icon, .dark-mode .side-menu__item:focus .side-menu__icon{
+	color:#fff !important;
+}
+
+@media only screen and (max-width: 991px){
+.horizontalMenu>.horizontalMenu-list>li:hover>a {
+    background: linear-gradient( 135deg, #dc81c6 10%, #0E5CAD 100%) !important;
+    color: #fff !important;
+}
+.horizontalMenu>.horizontalMenu-list>li>ul.sub-menu li:hover>a{
+	color:#0E5CAD !important;
+}
+}
