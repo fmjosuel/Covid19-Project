@@ -1,6 +1,6 @@
-# uptodateAlert
+# covidDRC
 
-> My tremendous Nuxt.js project
+> COVID-19 : DRC TIME SERIES DATA
 
 ## Build Setup
 

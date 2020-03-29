@@ -1,8 +1,8 @@
 {
   "name": "uptodateAlert",
   "version": "1.0.0",
-  "description": "My tremendous Nuxt.js project",
-  "author": "Yannick nsenga romeo",
+  "description": "COVID-19 : DRC TIME SERIES DATA",
+  "author": "Uptodate Developers <uptodatedevelopers@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
