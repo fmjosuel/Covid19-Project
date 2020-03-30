@@ -3,7 +3,7 @@
     <div class="col-md-12 col-lg-12 col-xl-12">
       <div class="card">
         <div class="card-header">
-          <h4 class="card-title">COVID-19 : RDC TIME SERIES DATA</h4>
+          <h4 class="card-title">COVID-19 : DRC TIME SERIES DATA</h4>
           <h6 class="card-subtitle">
             Last updated at : <b>{{ lastUpdatedAt }}</b>
           </h6>
