@@ -5,7 +5,7 @@
       <div class="col-xl-8 col-md-12 col-lg-8">
         <div class="card">
           <div class="card-header">
-            <h4 class="card-title">COVID-19 : RDC DATA</h4>
+            <h4 class="card-title">COVID-19 : DRC DATA</h4>
             <h6 class="card-subtitle">
               Last updated at : <b>{{ lastUpdatedAt }}</b>
             </h6>
