@@ -102,9 +102,8 @@ export default {
     circleChart() {
       const lastRecord = this.chartData[this.chartData.length - 1]
       return {
-        labels: ['Confirmed Cases', 'Active cases', 'Deaths', 'Recovered'],
+        labels: ['Active cases', 'Deaths', 'Recovered'],
         values: [
-          lastRecord['Confirmed Cases'],
           lastRecord['Active cases'],
           lastRecord.Death,
           lastRecord.Recovery
